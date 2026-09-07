@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'vishwa_7/jenkins-docker-demo'        
+        DOCKER_IMAGE = 'vishwajits7/jenkins-docker-demo'        
         REGISTRY_CREDENTIALS = 'dockerhub-credentials'
     }
 
